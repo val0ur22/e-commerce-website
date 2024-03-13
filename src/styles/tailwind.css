@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #f5f5f5;
+  --text-color: black;
+}
+
+.dark {
+  --bg-color: #042f2e;
+  --text-color: white;
+}
+
+
+.font-reenie-beanie {
+  font-family: 'Reenie Beanie', cursive;
+}
+
+.font-urbanist {
+  font-family: 'urbanist', sans-serif;
+}
+
+.App {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+.text-xl {
+  font-size: 2.5rem;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px; 
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #042f2e; 
+  border-radius: 4px;
+}
+
+.scrollbar {
+  width: 8px;
+  background-color: #f5f5f5;
+}
+
+
+.scrollbar-thumb{
+  background-color: #042f2e; 
+  border-radius: 4px;
+}
